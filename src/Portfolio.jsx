@@ -31,7 +31,12 @@ export default function Portfolio() {
           </p>
 
           <div className="buttons-container">
-            <button className="buttons hoverResume">Resume</button>
+            <button
+              className="buttons hoverResume"
+              href="https://drive.google.com/file/d/1w3a_GVaOZtPC4OIUq1YyeCYrHy4VD-Mk/view?usp=share_link"
+            >
+              Resume
+            </button>
             <a
               className="webs hoverWebs"
               href="https://www.linkedin.com/in/stefanoelorga/"
