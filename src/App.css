@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+.hr {
+  margin: 20px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.presentation-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+
+.presentation {
   color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.fn-szx30 {
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mrx5 {
+  margin-bottom: 5px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stefano {
+  width: 162px;
+  height: 162px;
+  border-radius: 100px;
+  margin-top: 25px;
+}
+
+.description-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.description-text {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.description-text-p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.mr-leftx15 {
+  margin-left: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttons {
+  margin-right: 20px;
+  background-color: #9333ea;
+  width: 71px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.hoverWebs:hover {
+  color: #723ea3;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.hoverResume:hover {
+  background-color: #723ea3;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.webs {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 20px;
+  text-decoration: underline;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.gmail {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.programming-person {
+  width: 250px;
+  height: 250px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble {
+  width: 256px;
+  height: 162px;
+  background-color: #262626;
+  border-radius: 10px;
+  border: 1px solid #5a5a5a;
+}
+
+.bubbles-skills-container {
+  display: grid;
+  grid-row: 1/ 2;
+  grid-column: 1/ 2;
+  grid-template: 200px 250px / 290px 250px;
+}
+
+.title-skills {
+  color: #c083f4;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.skills {
+  color: #ffffff;
+  margin-left: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble-project {
+  background-color: #262626;
+  border-radius: 10px;
+  border: 1px solid #5a5a5a;
+  flex: 1;
+  height: auto !important;
+  margin-bottom: 30px;
+}
+
+.position-location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.position {
+  color: #c083f4;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.location {
+  color: #c9d4d4;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.date {
+  color: #c9d4d4;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.li {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
