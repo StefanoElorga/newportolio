@@ -31,21 +31,25 @@ export default function Portfolio() {
           </p>
 
           <div className="buttons-container">
-            <button
-              className="buttons hoverResume"
+            <a
+              className="resume"
               href="https://drive.google.com/file/d/1w3a_GVaOZtPC4OIUq1YyeCYrHy4VD-Mk/view?usp=share_link"
+              target={"_blank"}
             >
-              Resume
-            </button>
+              <p>Resume</p>
+            </a>
+
             <a
               className="webs hoverWebs"
               href="https://www.linkedin.com/in/stefanoelorga/"
+              target={"_blank"}
             >
               Linkedin
             </a>
             <a
               className="webs hoverWebs"
               href="https://github.com/StefanoElorga"
+              target={"_blank"}
             >
               Github
             </a>

@@ -78,14 +78,17 @@
   align-items: center;
 }
 
-.buttons {
+.resume {
   margin-right: 20px;
   background-color: #9333ea;
   width: 71px;
   height: 40px;
-  border-radius: 10px;
-  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
+  border-radius: 10px;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
