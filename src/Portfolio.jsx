@@ -6,24 +6,29 @@ import person from "./assets/programming.png";
 export default function Portfolio() {
   return (
     <div className="container">
+      {/* Nombre y Profesión */}
       <div className="presentation-container">
-        <h1 className="presentation mrx5 fn-szx30">Stefano Elorga</h1>
-        <p className="presentation">Front End Developer, Software Engineer</p>
+        <h1 className="presentation-name">Stefano Elorga</h1>
+        <p className="presentation-pro">
+          Front End Developer, Software Engineer
+        </p>
       </div>
 
+      {/* Separador */}
       <hr className="hr" />
 
+      {/* descripcion personal */}
       <div className="description-container">
-        <div>
-          <img src={stefano} alt="Stefano Elorga" className="stefano" />
-        </div>
+        {/* imagen personal */}
+        <img src={stefano} alt="Stefano Elorga" className="stefano" />
 
         <div className="description-text-container">
           <h1 className="description-text">
-            Buscando crear nuevos proyectos y mi primera experiencia laboral.
+            En busqueda de crear nuevos proyectos y mi primera experiencia
+            laboral.
           </h1>
 
-          <p className="description-text-p mr-leftx15">
+          <p className="description-text-p">
             Con ganas de aprender y usar mis habilidades técnicas para trabajar
             en proyectos maravillosos en compañías grandes. Encantando con el
             desarrallo de aplicaciones E-commerce, juegos móviles, redes
@@ -53,26 +58,29 @@ export default function Portfolio() {
             >
               Github
             </a>
-            <p className="webs gmail">stefanoelorga22@gmail.com</p>
+            <p className="gmail">stefanoelorga22@gmail.com</p>
           </div>
         </div>
       </div>
 
       <hr className="hr" />
 
+      {/* experiencia */}
       <div className="experience-container">
         <div>
-          <h1 className="description-text">El desarrollo es mi pasión 🤝🏼</h1>
-          <p className="description-text-p">
+          <h1 className="my-pasion">El desarrollo es mi pasión 🤝🏼</h1>
+          <p className="dedicated">
             Desarrollador con 1+ de experiencia. Dedicado a hacer código de
             calidad en tiempo rápido.
           </p>
         </div>
-        <div>
-          <img src={person} alt="programming" className="programming-person" />
-        </div>
+
+        <img src={person} alt="programming" className="img-experience" />
       </div>
+
+      {/* separador */}
       <hr className="hr" />
+
       <div className="skills-container">
         <h1 className="description-text">Mejores habilidades</h1>
 
@@ -106,7 +114,7 @@ export default function Portfolio() {
       <hr className="hr" />
 
       <div className="projects-container">
-        <h1 className="description-text">Proyectos y Experiencia</h1>
+        <h1 className="title-project">Proyectos y Experiencia</h1>
 
         <div className="bubble-project">
           <div className="position-location-container">
@@ -114,6 +122,7 @@ export default function Portfolio() {
             <p className="location">Buenos Aires Argentina</p>
           </div>
 
+          {/* ME QUEDE ACA! */}
           <div>
             <p className="date">Jul 2021 hasta Dic 2021</p>
             <ul className="ul">
