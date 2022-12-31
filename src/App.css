@@ -13,12 +13,16 @@
 .presentation-name {
   margin: 0;
   color: #ffffff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .presentation-pro {
   margin-top: 8px;
   margin-bottom: 0;
   color: #ffffff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .hr {
@@ -47,14 +51,17 @@
   font-size: 21px;
 
   font-weight: bold;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .description-text-p {
   margin: 20px 0px 0px;
   padding: 0px 0px 0px 20px;
-
   color: #ffffff;
   font-size: 16px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .buttons-container {
@@ -65,7 +72,7 @@
 }
 
 .resume {
-  background-color: #c084fc;
+  background-color: #9333ea;
   margin: 20px 20px 0px 0px;
   color: #ffffff;
   font-size: 16px;
@@ -76,6 +83,8 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .webs {
@@ -83,12 +92,16 @@
   color: #ffffff;
   text-decoration: underline;
   font-size: 16px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .gmail {
   margin: 20px 0px 0px;
   color: #ffffff;
   text-decoration: underline;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .experience-container {
@@ -101,12 +114,16 @@
   font-weight: bold;
   color: #ffffff;
   margin: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .dedicated {
   margin: 16px 0px 0px;
   font-size: 16px;
   color: #ffffff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .img-experience {
@@ -141,12 +158,16 @@
 .title-skills {
   color: #c084fc;
   font-size: 20px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .skills {
   color: #ffffff;
   font-size: 16px;
   margin: 16px 0px 0px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .projects-container {
@@ -159,6 +180,8 @@
   color: #ffffff;
   margin: 0px 0px 16px;
   font-size: 20px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 .bubble-project {
   display: flex;
@@ -180,83 +203,125 @@
 .position {
   font-size: 20px;
   color: #c084fc;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .location {
   color: #d4d4d4;
   font-size: 20px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .date {
   margin: 16px 0px 0px;
   color: #d4d4d4;
   font-size: 18px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 .li {
   color: #ffffff;
   font-size: 18px;
   margin: 8px 0px 0px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.resume:hover {
+  background-color: #4f207d;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.webs:hover {
+  color: #9a3ef7;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
   .container {
     margin: 0;
     padding: 16px;
-    width: 100%;
   }
+
   .presentation-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   .presentation-name {
-    margin: 0;
-    color: #ffffff;
     font-size: 30px;
   }
 
   .presentation-pro {
-    margin-top: 8px;
-    margin-bottom: 0;
-    color: #ffffff;
     font-size: 16px;
   }
 
   .description-container {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .stefano {
-    width: 126px;
-    height: 127px;
-    border-radius: 80px;
-    margin: 0px 126px 20px;
+    justify-content: center;
   }
 
   .description-text-container {
-    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+
+  .stefano {
+    margin: 0px 0px 20px 0px;
   }
 
   .description-text {
-    font-size: 20px;
-    margin: 0px;
+    font: 30px;
+    margin: 0;
   }
+
   .description-text-p {
     font-size: 16px;
     margin: 20px 0px 0px;
     padding: 0px 0px 0px 20px;
   }
+
   .buttons-container {
-    margin: 0px 0px 20px;
-  }
-  .resume {
-    width: 71px;
-    height: 40px;
-    font-size: 16px;
-    margin: 20px 20px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .webs {
     font-size: 16px;
     margin: 20px 20px 0px 0px;
+  }
+
+  .resume {
+    font-size: 16px;
+    margin: 20px 20px 0px 0px;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bubbles-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .img-experience {
+    width: 20px;
+    height: 20px;
   }
 }

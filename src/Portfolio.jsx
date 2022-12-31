@@ -74,8 +74,6 @@ export default function Portfolio() {
             calidad en tiempo rápido.
           </p>
         </div>
-
-        <img src={person} alt="programming" className="img-experience" />
       </div>
 
       {/* separador */}
