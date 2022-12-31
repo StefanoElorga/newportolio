@@ -198,3 +198,65 @@
   font-size: 18px;
   margin: 8px 0px 0px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+  }
+  .presentation-container {
+  }
+
+  .presentation-name {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .presentation-pro {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .description-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .stefano {
+    width: 126px;
+    height: 127px;
+    border-radius: 80px;
+    margin: 0px 126px 20px;
+  }
+
+  .description-text-container {
+    margin: 0;
+  }
+
+  .description-text {
+    font-size: 20px;
+    margin: 0px;
+  }
+  .description-text-p {
+    font-size: 16px;
+    margin: 20px 0px 0px;
+    padding: 0px 0px 0px 20px;
+  }
+  .buttons-container {
+    margin: 0px 0px 20px;
+  }
+  .resume {
+    width: 71px;
+    height: 40px;
+    font-size: 16px;
+    margin: 20px 20px 0px 0px;
+  }
+  .webs {
+    font-size: 16px;
+    margin: 20px 20px 0px 0px;
+  }
+}
