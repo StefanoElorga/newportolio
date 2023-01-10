@@ -38,7 +38,7 @@ export default function Portfolio() {
           <div className="buttons-container">
             <a
               className="resume"
-              href="https://drive.google.com/file/d/1c0puXiGbstxbQvzFYMlielCjJ4svImRQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1iOnordVvjWb6rmnw-NkYudmNmbNdFK8r/view?usp=sharing"
               target={"_blank"}
             >
               <p>Resume</p>
